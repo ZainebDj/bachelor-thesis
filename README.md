@@ -1,5 +1,27 @@
-# Automated extraction
-automated extraction of work experience data from CVs.
-#
-There are two approaches that are used. GPT-Model and Natural Language Processing (NLP) with Regular Expression RegEx.
-The database that was utilized is accessible via the following link: https://github.com/arefinnomi/curriculum_vitae_data
+# Bachelor Thesis – CV Information Extraction Using NLP and GPT
+
+This project is the result of my Bachelor thesis in Computer Science. It focuses on extracting structured information from unstructured résumés (CVs) using a hybrid approach that combines classical NLP techniques (like Regex) and modern LLMs (GPT-4).
+
+---
+
+##  Project Goals
+
+The main objective of this project is to automatically extract the following data from free-form CVs:
+
+
+- Job Title
+- Company Name
+- Experience Period
+
+---
+
+##  Technologies & Tools
+
+| Category | Tools |
+|---------|-------|
+| Programming | Python |
+| NLP | Regex, spaCy |
+| LLM Integration | OpenAI GPT-4 API |
+| Evaluation | Manual + Automated tests |
+| Environment | Jupyter Notebooks, PyCharm |
+
